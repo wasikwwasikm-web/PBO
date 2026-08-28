@@ -17,7 +17,6 @@ public class chargerLaptop extends charger {
         super.cetakInfo();
         System.out.println("Daya: " + daya + " Watt");
         System.out.println("Panjang Kabel: " + panjangKabel + " cm");
-        System.out.println("Charger Type: Laptop Charger");
     }
 
 }

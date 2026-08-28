@@ -1,11 +1,11 @@
 package Tugas;
 
 public class charger {
-    public String merk;
+    public String jenisCharger;
     public int kecepatan;
 
-    public void setMerk(String merk) {
-        this.merk = merk;
+    public void setJenisCharger(String jenisCharger) {
+        this.jenisCharger = jenisCharger;
     }
 
     public void setKecepatan(int kecepatan) {
@@ -13,6 +13,6 @@ public class charger {
     }
 
     public void cetakInfo() {
-        System.out.println("Charger Merk: " + merk + ", Kecepatan: " + kecepatan);
+        System.out.println("Charger Jenis: " + jenisCharger + ", Kecepatan: " + kecepatan);
     }
 }

@@ -13,14 +13,14 @@ public class demo {
         monitor1.cetakInfo();
 
         chargerHp charger1 = new chargerHp();
-        charger1.setMerk("Realme");
+        charger1.setJenisCharger("Charger HP");
         charger1.setKecepatan(33);
         charger1.setTipe("USB-C");
         charger1.setTegangan(12);
         charger1.cetakInfo();
 
         chargerLaptop charger2 = new chargerLaptop();
-        charger2.setMerk("Lenovo");
+        charger2.setJenisCharger("Charger Laptop");
         charger2.setKecepatan(100);
         charger2.setDaya(65);
         charger2.setPanjangKabel(150);
