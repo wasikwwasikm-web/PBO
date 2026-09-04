@@ -1,0 +1,16 @@
+package Praktikum2;
+
+public class lingkaran {
+    public double r;
+    public double phi = 3.14;
+
+    public double hitungLuas() {
+        double luas = phi * r * r;
+        return luas;
+    }
+
+    public double hitungKeliling() {
+        double keliling = 2 * phi * r;
+        return keliling;
+    }
+}
