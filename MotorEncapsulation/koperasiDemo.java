@@ -2,7 +2,9 @@ package MotorEncapsulation;
 
 public class koperasiDemo {
     public static void main(String[] args) {
-        anggota anggota1 = new anggota();
+        anggota anggota1 = new anggota("Iwan", "Jl.Mawar");
+        System.out.println("Simpanan " + anggota1.getNama() + " : " + anggota1.getSimpanan());
+
         anggota1.setNama("Iwan Setiawan");
         anggota1.setAlamat("Jl.Sukarno Hatta No. 10");
         anggota1.setor(100000);
