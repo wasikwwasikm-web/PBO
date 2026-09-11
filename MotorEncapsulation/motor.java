@@ -29,6 +29,18 @@ public class motor {
         }
     }
 
+    public void maxKecepatan() {
+        if (kontakOn == true) {
+            if (kecepatan + 5 <= 100) {
+                kecepatan += 5;
+            } else {
+                System.out.println("Kecepatan sudah mencapai maksimum! \n");
+            }
+        } else {
+            System.out.println("Kecepatan tidak bisa bertambah karena mesin Off! \n");
+        }
+    }
+
     public void printStatus() {
         if (kontakOn == true) {
             System.out.println("Kontak On");
