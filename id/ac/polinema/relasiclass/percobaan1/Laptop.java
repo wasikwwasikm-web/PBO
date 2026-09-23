@@ -7,9 +7,9 @@ public class Laptop {
     public Laptop() {
     }
 
-    public Laptop(String merk) {
+    public Laptop(String merk, processor proc) {
         this.merk = merk;
-        this.proc = new processor("Generik", 1);
+        this.proc = proc;
     }
 
     public void setmerk(String merk) {
